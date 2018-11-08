@@ -1,0 +1,12 @@
+---
+ -name: app-chat-watson-assistant
+  memory: 256M
+  disk_quota: 1G
+  path: C:\Users\SOA\Desktop\satRequ\watson-sample-chatbot-master\watson-sample-chatbot-master
+  host: app-chat-watson-assistant
+  domain: mybluemix.net
+  command: node app.js
+  timeout: 80
+  no-route: true
+  env:
+    env_type: production
